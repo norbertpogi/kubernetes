@@ -1,0 +1,112 @@
+05:04:07 [info] FMOD version 44464
+05:04:11 [error] [YamlParser::Parse] Can't Open file C:/Users/T450/Documents/DAVAProject/logTags.yaml for read
+05:04:11 [info] EngineBackend::OnGameLoopStarted: enter
+05:04:11 [info] GameCore::OnAppStarted begin
+05:04:12 [info] [Facebook] Found .NET Framework 4.6.2 SP 0
+05:04:13 [info] SetBattleState unknown
+05:04:13 [info] 13:04:13 +8 [base] Vendor OS version:  no
+05:04:13 [info] Device kind: Desktop
+05:04:13 [info] Device display: 14.01" (12.21"x6.87")
+05:04:13 [info] GameCore::OnAppStarted done
+05:04:13 [info] EngineBackend::OnGameLoopStarted: leave
+05:04:13 [info] Window::HandleWindowCreated: enter
+05:04:13 [info] [RHI-DX11] Creating device
+05:04:13 [info] [RHI-DX11] available adapters:
+05:04:13 [info] 0 : 'Intel(R) HD Graphics 5500' (vendor: 0x8086, subsystem: 0x503417AA), feature level: 0xb000 (11.0)
+05:04:13 [info] 1 : 'Microsoft Basic Render Driver' (vendor: 0x1414, subsystem: 0x0000), feature level: 0xb000 (11.0)
+05:04:13 [info] [RHI-DX11] Using adapter `Intel(R) HD Graphics 5500` (vendor: 8086, subsystem: 503417AA)
+05:04:13 [info] [RHI-DX11] Creating device without selected adapter
+05:04:13 [info] [RHI-DX11] Init with feature level: 0xb000 (11.0)
+05:04:13 [info] [RHI-DX11] Using retrieved adapter `Intel(R) HD Graphics 5500` (vendor: 0x8086, subsystem: 0x503417AA)
+05:04:13 [info] [RHI-DX11] Selected adapter has 128 Mb of video memory
+05:04:13 [info] [RHI-DX11] OS registry version: 6.3.18362, is running on Win10: 0
+05:04:13 [info] [RHI-DX11] Starting swapchain resize. Set nullView.
+05:04:13 [info] [RHI-DX11] Reset targets and views
+05:04:13 [info] [RHI-DX11] Clear context state
+05:04:13 [info] [RHI-DX11] Flush context
+05:04:13 [info] [RHI-DX11] Resize swapchain buffers to size {1024, 768}
+05:04:13 [info] [RHI-DX11] hardware command buffers enabled: 0
+05:04:13 [info] [RHI-DX11] Typeless texture formats supported: 1
+05:04:13 [info] Rendering thread started
+05:04:14 [info] GameCore::OnWindowCreated begin
+05:04:14 [info] Desirable resource folder: Gfx
+05:04:14 [info] 13:04:14 +8 [base] Device tags: [Win32, , windows-low-tier]
+05:04:14 [info] 13:04:14 +8 [base] Detected preset: WindowsLowTier
+05:04:14 [error] [YamlParser::Parse] Can't Open file C:/Users/T450/Documents/DAVAProject/optionsDevice.yaml for read
+05:04:14 [error] [YamlParser::Parse] Can't Open file C:/Users/T450/Documents/DAVAProject/optionsGlobal.yaml for read
+05:04:14 [error] [YamlParser::Parse] Can't Open file C:/Users/T450/Documents/DAVAProject/localOptions.yaml for read
+05:04:14 [info] GameCore::OnWindowCreated done
+05:04:14 [info] Window::HandleWindowCreated: leave
+05:04:14 [info] Window::HandleVisibilityChanged: become visible
+05:04:14 [info] GameCore::OnForeground
+05:04:14 [info] [RHI-DX11] ResetBlock, resizing swapchain.
+05:04:14 [info] [RHI-DX11] Starting swapchain resize. Set nullView.
+05:04:14 [info] [RHI-DX11] Reset targets and views
+05:04:14 [info] [RHI-DX11] Clear context state
+05:04:14 [info] [RHI-DX11] Flush context
+05:04:14 [info] [RHI-DX11] Resize swapchain buffers to size {1600, 900}
+05:04:15 [info] AppContextImpl::InitializeLocalizations device locale: en, locale: en, game locale: en, sound locale: en, 
+05:04:15 [info] 13:04:15 +8 [base] PreLoginFlow::NextState stateIndex: 1 4
+05:04:15 [info] 13:04:15 +8 [base] PreLoginFlow::NextState stateIndex: 2 4
+05:04:15 [info] 13:04:15 +8 [http] UrlRequest::Reset 13610B10
+05:04:15 [info] 13:04:15 +8 [base] PreLoginFlow::NextState stateIndex: 3 4
+05:04:15 [info] 13:04:15 +8 [http] UrlRequest::Start this= 13610B10 thread= 3812
+05:04:15 [info] 13:04:15 +8 [http] UrlRequest::StartAsync 1360F8D8
+05:04:15 [info] 13:04:15 +8 [http] UrlRequest::Start this= 1360F8D8 thread= 5752
+05:04:16 [info] 13:04:16 +8 [http] UrlRequest::StartInSeparateThread 1360F8D8 wasCancelled= 0
+05:04:18 [info] 13:04:18 +8 [net] Read server regions yaml.
+05:04:27 [info] 13:04:27 +8 [base] PreLoginFlow::NextState stateIndex: 4 324
+05:04:27 [info] 13:04:27 +8 [base] PreLoginFlow::NextState stateIndex: 5 324
+05:04:27 [info] 13:04:27 +8 [base] PreLoginFlow::NextState stateIndex: 6 324
+05:04:27 [info] 13:04:27 +8 [base] PreLoginFlow::NextState stateIndex: 7 324
+05:04:28 [info] 13:04:28 +8 [base] PreLoginFlow::NextState stateIndex: 8 345
+05:04:28 [info] 13:04:28 +8 [base] ScreensFlow::RequestToShowConnectingScreen [ hangar loading sync data ]
+05:04:28 [info] 13:04:28 +8 [base] ScreensFlow::RequestToShowScreen VideoSplashScreen:-8 -> ConnectingScreen:666 345
+05:04:30 [info] 13:04:30 +8 [base] PreLoginFlow::NextState stateIndex: 9 346
+05:04:30 [info] 13:04:30 +8 [base] PreLoginFlow::NextState stateIndex: 10 346
+05:04:30 [info] 13:04:30 +8 [base] PreLoginFlow::NextState stateIndex: 11 346
+05:04:30 [info] 13:04:30 +8 [base] PreLoginFlow::NextState stateIndex: 12 346
+05:04:30 [info] 13:04:30 +8 [base] PreLoginFlow::NextState stateIndex: 13 346
+05:04:30 [info] 13:04:30 +8 [base] PreLoginFlow::NextState stateIndex: 14 346
+05:04:30 [info] 13:04:30 +8 [base] PreLoginFlow::NextState stateIndex: 15 346
+05:04:30 [info] 13:04:30 +8 [base] PreLoginFlow::NextState stateIndex: 16 346
+05:04:30 [info] 13:04:30 +8 [base] ScreensFlow::RequestToShowConnectingScreen [ DETERMINING_REGION_MESSAGE ]
+05:04:30 [error] 13:04:30 +8 [base] Request to switch to current screen: ConnectingScreen
+05:04:30 [info] 13:04:30 +8 [base] ScreensFlow::RequestToShowScreen ConnectingScreen:666 -> ConnectingScreen:666 346
+05:04:30 [info] Timezone: Asia/Singapore, sg
+05:04:30 [info] 13:04:30 +8 [base] PreLoginFlow::NextState stateIndex: 17 346
+05:04:30 [info] 13:04:30 +8 [http] UrlRequest::StartAsync 133933E8
+05:04:30 [info] 13:04:30 +8 [base] PreLoginFlow::NextState stateIndex: 18 346
+05:04:30 [info] 13:04:30 +8 [http] UrlRequest::Start this= 133933E8 thread= 5752
+05:04:30 [info] 13:04:30 +8 [base] ScreensFlow::RequestToShowScreen ConnectingScreen:666 -> EULAConfirmationScreen:-23 346
+05:04:30 [info] 13:04:30 +8 [http] UrlRequest::StartInSeparateThread 133933E8 wasCancelled= 0
+05:04:30 [error] 13:04:30 +8 [ui] Style sheet can not find component UITextComponent in control LinkLicense
+05:04:30 [error] 13:04:30 +8 [ui] Style sheet can not find component UITextComponent in control LinkLicense
+05:04:30 [error] 13:04:30 +8 [ui] Style sheet can not find component UITextComponent in control LinkPrivacy
+05:04:30 [error] 13:04:30 +8 [ui] Style sheet can not find component UITextComponent in control LinkPrivacy
+05:04:31 [error] 13:04:31 +8 [ui] Style sheet can not find component UITextComponent in control LinkPrivacy
+05:04:31 [error] 13:04:31 +8 [ui] Style sheet can not find component UITextComponent in control LinkPrivacy
+05:04:34 [error] 13:04:34 +8 [ui] Style sheet can not find component UITextComponent in control LinkLicense
+05:04:34 [error] 13:04:34 +8 [ui] Style sheet can not find component UITextComponent in control LinkLicense
+05:04:34 [error] 13:04:34 +8 [ui] Style sheet can not find component UITextComponent in control LinkPrivacy
+05:04:34 [error] 13:04:34 +8 [ui] Style sheet can not find component UITextComponent in control LinkPrivacy
+05:04:34 [error] 13:04:34 +8 [ui] Style sheet can not find component UITextComponent in control LinkLicense
+05:04:34 [error] 13:04:34 +8 [ui] Style sheet can not find component UITextComponent in control LinkLicense
+05:04:34 [info] 13:04:34 +8 [base] ScreensFlow::RequestToShowScreen EULAConfirmationScreen:-23 -> EULAScreen:-22 465
+05:04:35 [info] 13:04:35 +8 [http] UrlRequest::StartAsync 13610328
+05:04:35 [info] 13:04:35 +8 [http] UrlRequest::Start this= 13610328 thread= 3812
+05:04:36 [info] 13:04:36 +8 [http] UrlRequest::StartInSeparateThread 13610328 wasCancelled= 0
+05:04:39 [info] 13:04:39 +8 [base] ScreensFlow::RequestToShowScreen EULAScreen:-30 -> EULAConfirmationScreen:-23 556
+05:04:39 [info] 13:04:39 +8 [http] UrlRequest::Cancel 13610328
+05:04:39 [error] 13:04:39 +8 [ui] Style sheet can not find component UITextComponent in control LinkLicense
+05:04:39 [error] 13:04:39 +8 [ui] Style sheet can not find component UITextComponent in control LinkLicense
+05:04:39 [error] 13:04:39 +8 [ui] Style sheet can not find component UITextComponent in control LinkPrivacy
+05:04:39 [error] 13:04:39 +8 [ui] Style sheet can not find component UITextComponent in control LinkPrivacy
+05:04:49 [info] Window::HandleVisibilityChanged: become hidden
+05:04:49 [info] GameCore::OnBackground
+05:04:49 [info] Window::HandleWindowDestroyed: enter
+05:04:49 [info] EngineBackend::OnWindowDestroyed: enter
+05:04:49 [info] GameCore::OnWindowDestroyed
+05:04:49 [info] 13:04:49 +8 [BW] BWWrapper::TeardownConnection
+05:04:49 [info] 13:04:49 +8 [BW] BWApp::OnClearEntities: keepPlayerBaseEntity= 0
+05:04:49 [info] HeavyResourceValidationChecker: CANCELLED

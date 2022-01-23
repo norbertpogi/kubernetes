@@ -1,0 +1,34 @@
+prerequisite: learn the vim first : https://www.openvim.com/
+kubectl get pods
+kubectl describe pod my-app-pod
+kubectl apply -f pod.yml #this will create a pod.yml file
+kubectl run --image=nginx # create pod an image
+kubectl get pods -o wide #check node running 
+kubectl run redis --image=redis123
+kubectl run redis --image=redis123 --dry-run=client -o yaml > pod.yaml
+	vi pod.yaml
+
+kubectl create -f replicaset.yaml #if this is existing then it will create 3 copies depends on the replica set
+
+Replicaas = always avaliable in the cluster
+kubectl get replicaset.yaml
+	kubectl get pods # now you will notice that there are 3 replicas created
+	kubectl delete pods name
+		run get again then notice that 3 still running and create another pods
+		
+scale replicas 
+kubectl scale replicaset myapp-replicaset --replicaset=2 #this will less the pods running you can scal by adding more number
+  kubectl scale replicaSets --replicas=5 new-replica-set
+ 
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+  labels:
+    app: nginx
+	tier: frontend
+spec:
+  containers:
+  - name: nginx
+    image: nginx
